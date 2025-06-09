@@ -5,7 +5,7 @@ import joblib
 
 # load simple logistic regression trained model
 import os
-model_path = os.path.expanduser("~/simple_diabetes_model.pkl")
+model_path = "simple_diabetes_model.pkl"
 model = joblib.load(model_path)
 
 # translation dictionary (English/French/Chinese/Korean)
