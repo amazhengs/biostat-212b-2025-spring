@@ -6,6 +6,11 @@
 Built with [Streamlit](https://streamlit.io) for accessibility and interactivity.
 
 ---
+## Background / Motivation
+
+From the course content in BIOSTATS 212B, I wanted to create a simple, public-facing tool that demonstrates understanding of logistic regression and also has a general educational purpose. Diabetes is a growing health concern globally (~38.4M cases in the U.S. alone), and early awareness tools can help initiate conversations and behavior regarding risk and prevention. I was able to explore machine learning techniques and later, neural networks through my group assignments in this course, but I myself wanted to implement the tools that my group mentioned in Assignment 1 and 2.
+
+This diabetes risk assessment app was built to be simple, interpretable, and multilingual (English, French, Simplified Chinese, Korean), reflecting my desire to promote inclusivity and real-world applicability. These specific languages were chosen simply because I was personally most familiar with them, but realistically, an application like this would be expanded for even more. This project seeks to demonstrate how machine learning can support population health through transparent and interactive interfaces.
 
 ## About the App
 
@@ -25,8 +30,7 @@ It uses a **Logistic Regression model** trained on the publicly available CDC’
 
 ## Language Support
 
-The app currently supports the following languages.
-These are the languages that I currently have some experience in, but realistically an app like this would be expanded to more:
+The app currently supports the following languages:
 - English 🇺🇸
 - French 🇫🇷
 - Simplified Chinese 🇨🇳
