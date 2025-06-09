@@ -211,8 +211,9 @@ if st.button(text["submit"]):
         1 if smoker == "Yes" else 0,
         1 if physact == "Yes" else 0
     ]], columns=[
-        "Age", "BMI", "GenHlth", "HighBP", "HighChol",
-        "PhysHlth", "Smoker", "PhysActivity"
+    "Age", "BMI", "GenHlth",
+    "HighBP", "HighChol", "PhysHlth",
+    "Smoker", "PhysActivity"
     ])
 
     # run the model prediction
